@@ -1,5 +1,5 @@
 {
-  "name": "@fuckswap/fuckswap-uikit",
+  "name": "@united-farmers-finance/united-farmers-uikit",
   "version": "0.10.2",
   "description": "Set of UI components for pancake projects",
   "main": "dist/index.cjs.js",
@@ -9,7 +9,7 @@
     "dist",
     "src"
   ],
-  "repository": "https://github.com/fuckswap/fuckswap-uikit",
+  "repository": "https://github.com/united-farmers-finance/united-farmers-uikit",
   "license": "MIT",
   "scripts": {
     "build": "rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
