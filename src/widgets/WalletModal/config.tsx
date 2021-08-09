@@ -12,11 +12,11 @@ const connectors: Config[] = [
     icon: Metamask,
     connectorId: "injected",
   },
-  {
-    title: "TrustWallet",
-    icon: TrustWallet,
-    connectorId: "injected",
-  },
+  // {
+  //   title: "TrustWallet",
+  //   icon: TrustWallet,
+  //   connectorId: "injected",
+  // },
   {
     title: "MathWallet",
     icon: MathWallet,
