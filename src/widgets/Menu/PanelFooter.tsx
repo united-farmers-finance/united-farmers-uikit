@@ -125,7 +125,7 @@ const PanelFooter: React.FC<Props> = ({
             </Button>
           }
         >
-          {langs.map((lang) => (
+          {/* {langs.map((lang) => (
             <MenuButton
               key={lang.code}
               fullWidth
@@ -135,7 +135,7 @@ const PanelFooter: React.FC<Props> = ({
             >
               {lang.language}
             </MenuButton>
-          ))}
+          ))} */}
         </Dropdown>
       </SettingsEntry>
     </Container>
