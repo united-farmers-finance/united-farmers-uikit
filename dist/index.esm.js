@@ -2266,6 +2266,7 @@ var PanelFooter = function (_a) {
         React.createElement(SocialEntry, null,
             React.createElement(PriceLink, { href: priceLink, target: "_blank" },
                 React.createElement(Icon$v, { width: "24px", mr: "8px" }),
+                "$",
                 cakePriceUsd),
             React.createElement(Flex, null, socials.map(function (social, index) {
                 var Icon = Icons$1[social.icon];

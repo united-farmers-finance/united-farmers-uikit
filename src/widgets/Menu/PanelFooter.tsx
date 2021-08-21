@@ -80,7 +80,7 @@ const PanelFooter: React.FC<Props> = ({
       <SocialEntry>
           <PriceLink href={priceLink} target="_blank">
             <PancakeRoundIcon width="24px" mr="8px" />
-            {cakePriceUsd}
+            ${cakePriceUsd}
           </PriceLink>
         <Flex>
           {socials.map((social, index) => {
