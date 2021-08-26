@@ -4,13 +4,13 @@ import TokenPocket from "./icons/TokenPocket";
 import TrustWallet from "./icons/TrustWallet";
 import WalletConnect from "./icons/WalletConnect";
 import BinanceChain from "./icons/BinanceChain";
-import { Config } from "./types";
+import { Config, ConnectorNames } from "./types";
 
 const connectors: Config[] = [
   {
     title: "Metamask",
     icon: Metamask,
-    connectorId: "injected",
+    connectorId: ConnectorNames.Injected,
   },
   // {
   //   title: "TrustWallet",
@@ -30,7 +30,7 @@ const connectors: Config[] = [
   {
     title: "WalletConnect",
     icon: WalletConnect,
-    connectorId: "walletconnect",
+    connectorId: ConnectorNames.WalletConnect,
   },
   // {
   //   title: "Binance Chain Wallet",

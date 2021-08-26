@@ -13,10 +13,16 @@ export type ConnectorId =
   | "walletlink"
   | "bsc";
 
-export type Login = (connectorId: ConnectorId) => void;
+export type Login = (connectorId: ConnectorNames) => void;
 
 export interface Config {
   title: string;
   icon: FC<SvgProps>;
-  connectorId: ConnectorId;
+  connectorId: ConnectorNames;
+}
+
+export enum ConnectorNames {
+  Injected = "injected",
+  WalletConnect = "walletconnect",
+  BSC = "bsc",
 }
